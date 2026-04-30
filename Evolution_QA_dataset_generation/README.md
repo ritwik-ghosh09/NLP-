@@ -65,11 +65,6 @@ The core data generation engine synthesises instruction–response pairs through
   <img src="generator.svg" alt="Evolutionary Generator Workflow" width="700"/>
 </p>
 
-The high-level data flow follows this sequence:
-
-<p align="center">
-  <img src="navigator_agent_augment_data_flow.png" alt="Navigator Agent Data Flow" width="700"/>
-</p>
 
 ### Generational Loop
 
@@ -106,7 +101,7 @@ Then, the following evolutionary cycle repeats for G generations (default: 3):
 
 After the final generation, a **Final Ranking Pass** (same ranking + complexity adjustment, no mutation or filtering) selects Row 0 (lowest `r_adj`) as the best evolved text.
 
-### AI-Align-AI Refinement
+### AI-Align-AI Refinement(Set to Optional by default)
 
 When `use_aaa=True`, the best evolutionary output undergoes a three-stage refinement:
 
