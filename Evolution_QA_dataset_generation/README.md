@@ -47,10 +47,11 @@ This repository implements an end-to-end pipeline for generating high-quality SM
 │   ├── learning_rate_sq.png              # Learning rate schedule
 │   ├── grad_norm_sq.png                  # Gradient norm curve
 │   └── README.md
-├── Instruction-tuning.ipynb              # Full fine-tuning pipeline notebook
-├── Evaluation.ipynb                      # LLM-as-judge evaluation notebook
-├── evaluation_results.csv                # Evaluation scores (semicolon-delimited)
-└── README.md
+│   ├── Instruction-tuning.ipynb              # Full fine-tuning pipeline notebook
+│   ├── Evaluation.ipynb                      # LLM-as-judge evaluation notebook
+│   ├── evaluation_results.csv                # Evaluation scores (semicolon-delimited)
+│   ├── README.md
+│   └── requirements.txt
 ```
 
 ---
